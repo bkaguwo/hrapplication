@@ -16,7 +16,7 @@ namespace HR_Management.Models.HRModels
         public string content { get; set; }
         public int employeeFromID { get; set; }
         public int employeeToID { get; set; }
-        public DateTime date { get; set; }
+        public string date { get; set; }
         public bool isRead { get; set; }
     }
 }

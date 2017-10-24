@@ -11,7 +11,7 @@ namespace HR_Management.Models.HRModels
         [Required]
         [Key]
         public int ID { get; set; }
-        public string empId { get; set; }
+        public int empId { get; set; }
         public string startDate { get; set; }
         public string endDate { get; set; }
         public string description { get; set; }

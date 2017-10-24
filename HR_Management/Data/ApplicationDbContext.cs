@@ -28,6 +28,7 @@ namespace HR_Management.Data
         public DbSet<HR_Management.Models.HRModels.PositionInfo> PositionInfo { get; set; }
         public DbSet<HR_Management.Models.HRModels.Reviews> Reviews { get; set; }
         public DbSet<HR_Management.Models.HRModels.TimeOff> TimeOff { get; set; }
+		public DbSet<HR_Management.Models.HRModels.Messages> Messages { get; set; }
 
-    }
+	}
 }

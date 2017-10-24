@@ -16,7 +16,7 @@ namespace HR_Management.Models.HRModels
         public string status { get; set; }
         public string title { get; set; }
         public string description { get; set; }
-        public string empId { get; set; }
+        public int empId { get; set; }
         public string date { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace HR_Management.Models.HRModels
     {//Properties
         [Required]
         [Key]
-        public string empId { get; set; }
+        public int empId { get; set; }
         public string password { get; set; }
         public string fname { get; set; }
         public string lname { get; set; }
@@ -19,12 +19,12 @@ namespace HR_Management.Models.HRModels
         public string phoneNumber { get; set; }
         public string status { get; set; }
         public string department { get; set; }
-        public string jobTitle { get; set; }
+        public int jobTitle { get; set; }
         public int vacationDays { get; set; }
         public int sickTime { get; set; }
-        public DateTime startDate { get; set; }
-        public DateTime endDate { get; set; }
-        public string managerID { get; set; }
+        public string startDate { get; set; }
+        public string endDate { get; set; }
+        public int managerID { get; set; }
         public int employeeType { get; set; }
         public int rank { get; set; }
         public byte[] ImageData { get; set; }
